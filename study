@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Verse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background: #4caf50;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem 2rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #4caf50;
+    }
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background: #e3f2fd;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      margin: 1rem;
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .card h3 {
+      margin: 1rem 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Study Verse</h1>
+  <p>Your one-stop platform for learning resources</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Explore and Learn</h1>
+  <p>Discover courses and resources tailored for students</p>
+</div>
+
+<div class="content">
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Course Image">
+    <h3>Math Mastery</h3>
+    <p>Learn algebra, calculus, and more.</p>
+    <button>Start Now</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Course Image">
+    <h3>Science Explorer</h3>
+    <p>Dive into physics, chemistry, and biology.</p>
+    <button>Enroll Today</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Course Image">
+    <h3>History Hub</h3>
+    <p>Understand world history and cultures.</p>
+    <button>Learn More</button>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2024 Study Verse. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
